@@ -40,7 +40,7 @@ VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spellin
 # Owner Information
 API_ID = int(environ.get("API_ID", ""))
 API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", "1892771262 714077923"))
+ADMINS = int(environ.get("ADMINS", "1892771262"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
