@@ -29,24 +29,24 @@ def is_enabled(value, default):
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002147396609 -1002116310726 -1002248136091 -1001752414571').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
 
 API = environ.get("API", "") # shortlink api
 URL = environ.get("URL", "") # shortlink domain without https://
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Public_file_store_mnbot") # bot username without @
 VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital
 
 # Owner Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", ""))
+API_ID = int(environ.get("API_ID", "22980696"))
+API_HASH = environ.get("API_HASH", "2b653cb53821a82097efaba6732f5d75")
+ADMINS = int(environ.get("ADMINS", "1892771262 714077923"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
+CDB_NAME = environ.get("CDB_NAME", "cluster0")
 DB_URI = environ.get("DB_URI", "")
-DB_NAME = environ.get("DB_NAME", "vjbotz")
+DB_NAME = environ.get("DB_NAME", "cluster0")
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
