@@ -38,12 +38,12 @@ BOT_USERNAME = environ.get("BOT_USERNAME", "Public_file_store_mnbot") # bot user
 VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital
 
 # Owner Information
-API_ID = int(environ.get("API_ID", "22980696"))
-API_HASH = environ.get("API_HASH", "2b653cb53821a82097efaba6732f5d75")
+API_ID = int(environ.get("API_ID", ""))
+API_HASH = environ.get("API_HASH", "")
 ADMINS = int(environ.get("ADMINS", "1892771262 714077923"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://Lo:lo@cluster0.vqotwwe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "cluster0")
 DB_URI = environ.get("DB_URI", "")
 DB_NAME = environ.get("DB_NAME", "cluster0")
@@ -53,7 +53,7 @@ DB_NAME = environ.get("DB_NAME", "cluster0")
 # Ask Doubt on telegram @KingVJ01
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "6417546601:AAGCuNmn98Y51DSOJmFwdJhaszhL29FsSI8")
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
 PICS = (environ.get('PICS', 'https://graph.org/file/1a93bba7ca434a409c502.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
